@@ -1,0 +1,6 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-smart.who.int.trust.json	9699	-	0	0	0	0	0	0	10	114	0	0	0	0	0	0	0	1	0	0	163	98	0	0	0	5	0	0
+fsh-generated/resources/StructureDefinition-COSEHeader.json	1559	32	0	0	0	0	0	13	0	52	0	0	1	0	0	0	0	0	0	0	42	777	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-CWT.json	1845	33	0	0	0	0	0	18	0	45	0	0	0	0	0	0	0	0	0	0	46	241	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-CWTPayload.json	2210	33	0	0	0	0	0	31	0	33	0	0	0	0	0	0	0	1	0	0	51	160	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-HCert.json	3216	26	0	0	0	0	0	30	0	34	0	0	0	0	0	0	0	0	0	0	62	151	0	0	0	2	0	0
