@@ -1,0 +1,20 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-smart.who.int.trust.json	14195	-	0	0	0	0	0	0	12	597	0	0	0	0	0	0	0	0	0	0	134	129	0	0	0	4	0	1
+fsh-generated/resources/CodeSystem-HL.TYPE.json	548	7	0	0	0	1	0	0	0	15	0	0	0	0	0	0	0	0	0	0	28	6843	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-WHO.TRUST.ACTOR.json	1054	5	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	22	199	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-WHO.TRUST.DOMAIN.json	588	5	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	24	182	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-WHO.TRUST.KEYUSAGE.json	1547	4	1	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	19	180	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-WHO.TRUST.TRANSACTION.json	686	5	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	17	172	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-COSEHeader.json	1440	6	0	0	0	0	0	7	0	26	0	0	1	0	0	0	0	1	0	0	30	543	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-CWT.json	1726	5	0	0	0	0	0	31	0	11	0	0	0	0	0	0	0	0	0	0	33	224	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-CWTPayload.json	2091	5	0	0	0	0	0	31	0	9	0	0	0	0	0	0	0	0	0	0	35	168	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-HCert.json	2605	7	0	0	0	0	0	37	0	17	0	0	0	0	0	0	0	0	0	0	37	152	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-SchemeInformation.json	7680	6	0	0	0	0	0	50	0	30	0	0	0	0	0	0	0	1	0	0	87	315	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-SmartHealthLink.json	1401	5	0	0	0	0	0	35	0	14	0	0	0	0	0	0	0	0	0	0	28	137	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-SmartHealthLinkPayload.json	5267	6	1	0	0	0	0	31	0	17	0	0	0	0	0	0	0	0	0	0	46	118	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-VerifiableHealthLinkPayload.json	1555	5	0	0	0	0	0	35	0	17	0	0	0	0	0	0	0	0	0	0	34	138	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-HL.TYPE.json	378	4	0	0	0	0	0	0	1	129	0	0	0	0	0	0	0	0	0	0	16	12001	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-WHO.TRUST.ACTOR.json	454	5	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	14	950	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-WHO.TRUST.DOMAIN.json	562	5	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	16	268	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-WHO.TRUST.KEYUSAGE.json	868	4	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	17	304	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-WHO.TRUST.TRANSACTION.json	484	5	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	15	861	0	0	0	0	0	0
