@@ -4,6 +4,15 @@ title: "[Feedback]: "
 labels: ["feedback"]
 body:
   - type: input
+    id: filename
+    attributes:
+      label: Filename
+      description: "Name of the file this feedback relates to."
+      placeholder: "e.g., myfile.xml"
+    validations:
+      required: true
+
+  - type: input
     id: page
     attributes:
       label: Page URL
