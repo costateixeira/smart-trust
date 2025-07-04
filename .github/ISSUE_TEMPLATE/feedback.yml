@@ -3,38 +3,46 @@ description: Provide feedback about specific sections of the implementation guid
 title: "[Feedback]: "
 labels: ["feedback"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- The following fields are stored as hidden comments for easier searching -->
+
   - type: input
     id: filename
     attributes:
-      label: Filename
-      description: "Name of the file this feedback relates to."
-      placeholder: "e.g., myfile.xml"
+      label: Hidden: filename
+      description: Hidden field for filename.
+      placeholder: "e.g., index.html"
+      value: ""
     validations:
       required: true
 
   - type: input
     id: page
     attributes:
-      label: Page URL
-      description: "Link to the page you're giving feedback on (auto-filled)."
-      placeholder: "e.g., https://your-ig.org/medication/page.html#section"
+      label: Hidden: page
+      description: Hidden field for page URL.
+      placeholder: "e.g., https://example.org/page.html"
+      value: ""
     validations:
       required: true
 
   - type: input
     id: section
     attributes:
-      label: Section
-      description: "Name of the section your feedback relates to."
-      placeholder: "e.g., Medication Dispensing"
+      label: Hidden: section
+      description: Hidden field for section.
+      placeholder: "e.g., home page"
+      value: ""
     validations:
       required: true
 
   - type: textarea
     id: feedback
     attributes:
-      label: Feedback Description
-      description: "Please describe your feedback in detail."
-      placeholder: "Describe the issue, suggestion, or improvement clearly..."
+      label: Feedback
+      description: "Describe your feedback clearly."
+      placeholder: "Write your feedback here..."
     validations:
       required: true
