@@ -1,0 +1,23 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "eeb2d397-a8b4-4847-9bae-e62d410321cf-6",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/eeb2d397-a8b4-4847-9bae-e62d410321cf-6",
+  "name" : "IntersectionWHO_TRUST_DOMAINAndWHO_TRUST_DOMAIN",
+  "title" : "Intersection of WHO SMART Trust Domains And WHO SMART Trust Domains",
+  "status" : "active",
+  "date" : "2025-02-05T19:23:17+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "concept" : [{
+    "code" : "DDCC",
+    "display" : "WHO DDCC"
+  },
+  {
+    "code" : "IPS-PILGRIMAGE",
+    "display" : "IPS for Pilgrimage"
+  }]
+}
