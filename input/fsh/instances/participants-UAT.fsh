@@ -88,16 +88,6 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-CZE-UAT-SCA)
 
 
-Instance: GDHCNParticipant-ECU-UAT
-InstanceOf: IHE.mCSD.Organization
-Usage: #definition
-* name = "Ecuador"
-* type = $orgType#govt
-* endpoint[+] = Reference(GDHCNParticipantDID-ECU-UAT-All)
-* endpoint[+] = Reference(GDHCNParticipantDID-ECU-UAT-DSC)
-* endpoint[+] = Reference(GDHCNParticipantDID-ECU-UAT-SCA)
-
-
 Instance: GDHCNParticipant-ESP-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
@@ -148,16 +138,6 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-FRO-UAT-SCA)
 
 
-Instance: GDHCNParticipant-GTM-UAT
-InstanceOf: IHE.mCSD.Organization
-Usage: #definition
-* name = "Guatemala"
-* type = $orgType#govt
-* endpoint[+] = Reference(GDHCNParticipantDID-GTM-UAT-All)
-* endpoint[+] = Reference(GDHCNParticipantDID-GTM-UAT-DSC)
-* endpoint[+] = Reference(GDHCNParticipantDID-GTM-UAT-SCA)
-
-
 Instance: GDHCNParticipant-HRV-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
@@ -176,16 +156,6 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-IDN-UAT-All)
 * endpoint[+] = Reference(GDHCNParticipantDID-IDN-UAT-DSC)
 * endpoint[+] = Reference(GDHCNParticipantDID-IDN-UAT-SCA)
-
-
-Instance: GDHCNParticipant-IOM-UAT
-InstanceOf: IHE.mCSD.Organization
-Usage: #definition
-* name = "UAT Participant IOM"
-* type = $orgType#govt
-* endpoint[+] = Reference(GDHCNParticipantDID-IOM-UAT-All)
-* endpoint[+] = Reference(GDHCNParticipantDID-IOM-UAT-DSC)
-* endpoint[+] = Reference(GDHCNParticipantDID-IOM-UAT-SCA)
 
 
 Instance: GDHCNParticipant-IRL-UAT
@@ -446,16 +416,6 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-XXO-UAT-All)
 * endpoint[+] = Reference(GDHCNParticipantDID-XXO-UAT-DSC)
 * endpoint[+] = Reference(GDHCNParticipantDID-XXO-UAT-SCA)
-
-
-Instance: GDHCNParticipant-XXQ-UAT
-InstanceOf: IHE.mCSD.Organization
-Usage: #definition
-* name = "UAT Participant XXQ"
-* type = $orgType#govt
-* endpoint[+] = Reference(GDHCNParticipantDID-XXQ-UAT-All)
-* endpoint[+] = Reference(GDHCNParticipantDID-XXQ-UAT-DSC)
-* endpoint[+] = Reference(GDHCNParticipantDID-XXQ-UAT-SCA)
 
 
 Instance: GDHCNParticipant-XXS-UAT
