@@ -13,8 +13,8 @@ Description:  "ValueSet of GDHCN Trust Network Participants for User Acceptance 
 // 3. ValueSet includes codes from BOTH sources
 //
 // Current composition:
-//   - RefMart codes (participants found in RefMart): 36
-//   - Participants-UAT codes (participants NOT in RefMart): 11
+//   - RefMart codes (participants found in RefMart): 39
+//   - Participants-UAT codes (participants NOT in RefMart): 13
 //
 // To regenerate, execute on tng-participants-uat repo:
 //     gfind . -maxdepth 1 -type d -name '[A-Z][A-Z][A-Z](-[A-Z]+)*'
@@ -28,13 +28,16 @@ Description:  "ValueSet of GDHCN Trust Network Participants for User Acceptance 
 * $RefMartCountryList#CAN
 * $RefMartCountryList#CYP
 * $RefMartCountryList#CZE
+* $RefMartCountryList#ECU
 * $RefMartCountryList#ESP
 * $RefMartCountryList#EST
 * $RefMartCountryList#FIN
 * $RefMartCountryList#FRA
 * $RefMartCountryList#FRO
+* $RefMartCountryList#GTM
 * $RefMartCountryList#HRV
 * $RefMartCountryList#IDN
+* $Participants-UAT#IOM
 * $RefMartCountryList#IRL
 * $RefMartCountryList#LTU
 * $RefMartCountryList#LVA
@@ -48,6 +51,7 @@ Description:  "ValueSet of GDHCN Trust Network Participants for User Acceptance 
 * $RefMartCountryList#PRT
 * $RefMartCountryList#SAU
 * $RefMartCountryList#SGP
+* $RefMartCountryList#SLV
 * $RefMartCountryList#SMR
 * $RefMartCountryList#SVK
 * $RefMartCountryList#SVN
@@ -61,6 +65,7 @@ Description:  "ValueSet of GDHCN Trust Network Participants for User Acceptance 
 * $Participants-UAT#XXC
 * $Participants-UAT#XXD
 * $Participants-UAT#XXO
+* $Participants-UAT#XXQ
 * $Participants-UAT#XXS
 * $Participants-UAT#XXU
 * $Participants-UAT#XXV
