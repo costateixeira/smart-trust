@@ -68,6 +68,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-CAN-UAT-SCA)
 
 
+Instance: GDHCNParticipant-CHL-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "Chile"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-CHL-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-CHL-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-CHL-UAT-SCA)
+
+
 Instance: GDHCNParticipant-CYP-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
@@ -86,6 +96,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-CZE-UAT-All)
 * endpoint[+] = Reference(GDHCNParticipantDID-CZE-UAT-DSC)
 * endpoint[+] = Reference(GDHCNParticipantDID-CZE-UAT-SCA)
+
+
+Instance: GDHCNParticipant-ECU-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "Ecuador"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-ECU-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-ECU-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-ECU-UAT-SCA)
 
 
 Instance: GDHCNParticipant-ESP-UAT
@@ -138,6 +158,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-FRO-UAT-SCA)
 
 
+Instance: GDHCNParticipant-GTM-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "Guatemala"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-GTM-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-GTM-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-GTM-UAT-SCA)
+
+
 Instance: GDHCNParticipant-HRV-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
@@ -156,6 +186,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-IDN-UAT-All)
 * endpoint[+] = Reference(GDHCNParticipantDID-IDN-UAT-DSC)
 * endpoint[+] = Reference(GDHCNParticipantDID-IDN-UAT-SCA)
+
+
+Instance: GDHCNParticipant-IOM-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "UAT Participant IOM"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-IOM-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-IOM-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-IOM-UAT-SCA)
 
 
 Instance: GDHCNParticipant-IRL-UAT
@@ -248,6 +288,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-OMN-UAT-SCA)
 
 
+Instance: GDHCNParticipant-PAN-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "Panama"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-PAN-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-PAN-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-PAN-UAT-SCA)
+
+
 Instance: GDHCNParticipant-POL-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
@@ -268,6 +318,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-PRT-UAT-SCA)
 
 
+Instance: GDHCNParticipant-PRY-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "Paraguay"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-PRY-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-PRY-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-PRY-UAT-SCA)
+
+
 Instance: GDHCNParticipant-SAU-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
@@ -286,6 +346,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-SGP-UAT-All)
 * endpoint[+] = Reference(GDHCNParticipantDID-SGP-UAT-DSC)
 * endpoint[+] = Reference(GDHCNParticipantDID-SGP-UAT-SCA)
+
+
+Instance: GDHCNParticipant-SLV-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "El Salvador"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-SLV-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-SLV-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-SLV-UAT-SCA)
 
 
 Instance: GDHCNParticipant-SMR-UAT
@@ -358,6 +428,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-TUR-UAT-SCA)
 
 
+Instance: GDHCNParticipant-URY-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "Uruguay"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-URY-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-URY-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-URY-UAT-SCA)
+
+
 Instance: GDHCNParticipant-WHO-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
@@ -418,6 +498,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-XXO-UAT-SCA)
 
 
+Instance: GDHCNParticipant-XXQ-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "UAT Participant XXQ"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-XXQ-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-XXQ-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-XXQ-UAT-SCA)
+
+
 Instance: GDHCNParticipant-XXS-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
@@ -426,6 +516,16 @@ Usage: #definition
 * endpoint[+] = Reference(GDHCNParticipantDID-XXS-UAT-All)
 * endpoint[+] = Reference(GDHCNParticipantDID-XXS-UAT-DSC)
 * endpoint[+] = Reference(GDHCNParticipantDID-XXS-UAT-SCA)
+
+
+Instance: GDHCNParticipant-XXT-UAT
+InstanceOf: IHE.mCSD.Organization
+Usage: #definition
+* name = "UAT Participant XXT"
+* type = $orgType#govt
+* endpoint[+] = Reference(GDHCNParticipantDID-XXT-UAT-All)
+* endpoint[+] = Reference(GDHCNParticipantDID-XXT-UAT-DSC)
+* endpoint[+] = Reference(GDHCNParticipantDID-XXT-UAT-SCA)
 
 
 Instance: GDHCNParticipant-XXU-UAT
