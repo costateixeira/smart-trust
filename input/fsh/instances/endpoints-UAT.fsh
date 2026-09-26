@@ -1700,9 +1700,9 @@ Usage: #definition
 
 Instance: GDHCNParticipantDID-XXQ-UAT-All
 InstanceOf: IHE.mCSD.Endpoint
-Description: "UAT Participant XXQ Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXQ\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXQ/did.json"
+Description: "Test Locality Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXQ\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXQ/did.json"
 Usage: #definition
-* name = "UAT Participant XXQ Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXQ\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXQ/did.json"
+* name = "Test Locality Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXQ\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXQ/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXQ-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1713,7 +1713,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXQ-UAT-DSC
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXQ Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXQ:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXQ/DSC/did.json"
+* name = "Test Locality Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXQ:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXQ/DSC/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXQ-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1724,7 +1724,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXQ-UAT-SCA
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXQ Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXQ:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXQ/SCA/did.json"
+* name = "Test Locality Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXQ:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXQ/SCA/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXQ-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1734,9 +1734,9 @@ Usage: #definition
 
 Instance: GDHCNParticipantDID-XXS-UAT-All
 InstanceOf: IHE.mCSD.Endpoint
-Description: "UAT Participant XXS Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXS\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXS/did.json"
+Description: "Test Locality Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXS\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXS/did.json"
 Usage: #definition
-* name = "UAT Participant XXS Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXS\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXS/did.json"
+* name = "Test Locality Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXS\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXS/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXS-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1747,7 +1747,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXS-UAT-DSC
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXS Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXS:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXS/DSC/did.json"
+* name = "Test Locality Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXS:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXS/DSC/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXS-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1758,7 +1758,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXS-UAT-SCA
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXS Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXS:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXS/SCA/did.json"
+* name = "Test Locality Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXS:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXS/SCA/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXS-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1768,9 +1768,9 @@ Usage: #definition
 
 Instance: GDHCNParticipantDID-XXT-UAT-All
 InstanceOf: IHE.mCSD.Endpoint
-Description: "UAT Participant XXT Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXT\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXT/did.json"
+Description: "Geneva Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXT\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXT/did.json"
 Usage: #definition
-* name = "UAT Participant XXT Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXT\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXT/did.json"
+* name = "Geneva Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXT\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXT/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXT-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1781,7 +1781,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXT-UAT-DSC
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXT Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXT:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXT/DSC/did.json"
+* name = "Geneva Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXT:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXT/DSC/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXT-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1792,7 +1792,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXT-UAT-SCA
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXT Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXT:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXT/SCA/did.json"
+* name = "Geneva Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXT:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXT/SCA/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXT-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1802,9 +1802,9 @@ Usage: #definition
 
 Instance: GDHCNParticipantDID-XXU-UAT-All
 InstanceOf: IHE.mCSD.Endpoint
-Description: "UAT Participant XXU Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXU\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXU/did.json"
+Description: "Geneva Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXU\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXU/did.json"
 Usage: #definition
-* name = "UAT Participant XXU Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXU\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXU/did.json"
+* name = "Geneva Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXU\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXU/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXU-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1815,7 +1815,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXU-UAT-DSC
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXU Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXU:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXU/DSC/did.json"
+* name = "Geneva Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXU:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXU/DSC/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXU-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1826,7 +1826,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXU-UAT-SCA
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXU Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXU:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXU/SCA/did.json"
+* name = "Geneva Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXU:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXU/SCA/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXU-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1836,9 +1836,9 @@ Usage: #definition
 
 Instance: GDHCNParticipantDID-XXV-UAT-All
 InstanceOf: IHE.mCSD.Endpoint
-Description: "UAT Participant XXV Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXV\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXV/did.json"
+Description: "test city Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXV\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXV/did.json"
 Usage: #definition
-* name = "UAT Participant XXV Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXV\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXV/did.json"
+* name = "test city Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXV\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXV/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXV-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1849,7 +1849,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXV-UAT-DSC
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXV Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXV:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXV/DSC/did.json"
+* name = "test city Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXV:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXV/DSC/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXV-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
@@ -1860,7 +1860,7 @@ Usage: #definition
 Instance: GDHCNParticipantDID-XXV-UAT-SCA
 InstanceOf: IHE.mCSD.Endpoint
 Usage: #definition
-* name = "UAT Participant XXV Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXV:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXV/SCA/did.json"
+* name = "test city Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXV:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXV/SCA/did.json"
 * managingOrganization = Reference(Organization/GDHCNParticipant-XXV-UAT)
 * status = #active
 * connectionType = $ConnectionTypes#http-get
