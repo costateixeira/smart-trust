@@ -501,7 +501,7 @@ Usage: #definition
 Instance: GDHCNParticipant-XXQ-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
-* name = "Test Locality"
+* name = "UAT Participant XXQ"
 * type = $orgType#govt
 * endpoint[+] = Reference(GDHCNParticipantDID-XXQ-UAT-All)
 * endpoint[+] = Reference(GDHCNParticipantDID-XXQ-UAT-DSC)
@@ -511,7 +511,7 @@ Usage: #definition
 Instance: GDHCNParticipant-XXS-UAT
 InstanceOf: IHE.mCSD.Organization
 Usage: #definition
-* name = "Test Locality"
+* name = "UAT Participant XXS"
 * type = $orgType#govt
 * endpoint[+] = Reference(GDHCNParticipantDID-XXS-UAT-All)
 * endpoint[+] = Reference(GDHCNParticipantDID-XXS-UAT-DSC)
