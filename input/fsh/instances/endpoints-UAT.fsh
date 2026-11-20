@@ -1664,6 +1664,40 @@ Usage: #definition
 * payloadType = $PayloadTypes#urn:who:trust:trustlist:v2
 * address = "did:web:tng-cdn.who.int:v2:trustlist:-:XXD:SCA"
 
+Instance: GDHCNParticipantDID-XXE-UAT-All
+InstanceOf: IHE.mCSD.Endpoint
+Description: "UAT Participant XXE Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXE\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXE/did.json"
+Usage: #definition
+* name = "UAT Participant XXE Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXE\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXE/did.json"
+* managingOrganization = Reference(Organization/GDHCNParticipant-XXE-UAT)
+* status = #active
+* connectionType = $ConnectionTypes#http-get
+* payloadMimeType = #application/did
+* payloadType = $PayloadTypes#urn:who:trust:trustlist:v2
+* address = "did:web:tng-cdn.who.int:v2:trustlist:-:XXE"
+
+Instance: GDHCNParticipantDID-XXE-UAT-DSC
+InstanceOf: IHE.mCSD.Endpoint
+Usage: #definition
+* name = "UAT Participant XXE Trustlist (DID v2) - UAT - Document Signing Certificates\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXE:DSC\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXE/DSC/did.json"
+* managingOrganization = Reference(Organization/GDHCNParticipant-XXE-UAT)
+* status = #active
+* connectionType = $ConnectionTypes#http-get
+* payloadMimeType = #application/did
+* payloadType = $PayloadTypes#urn:who:trust:trustlist:v2
+* address = "did:web:tng-cdn.who.int:v2:trustlist:-:XXE:DSC"
+
+Instance: GDHCNParticipantDID-XXE-UAT-SCA
+InstanceOf: IHE.mCSD.Endpoint
+Usage: #definition
+* name = "UAT Participant XXE Trustlist (DID v2) - UAT - Certificate Signing Authority\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXE:SCA\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXE/SCA/did.json"
+* managingOrganization = Reference(Organization/GDHCNParticipant-XXE-UAT)
+* status = #active
+* connectionType = $ConnectionTypes#http-get
+* payloadMimeType = #application/did
+* payloadType = $PayloadTypes#urn:who:trust:trustlist:v2
+* address = "did:web:tng-cdn.who.int:v2:trustlist:-:XXE:SCA"
+
 Instance: GDHCNParticipantDID-XXO-UAT-All
 InstanceOf: IHE.mCSD.Endpoint
 Description: "UAT Participant XXO Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:XXO\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/XXO/did.json"
